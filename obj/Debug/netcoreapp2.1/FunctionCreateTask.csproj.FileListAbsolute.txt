@@ -1,0 +1,11 @@
+D:\FunctionCreateTask\bin\Debug\netcoreapp2.1\FunctionCreateTask.deps.json
+D:\FunctionCreateTask\bin\Debug\netcoreapp2.1\FunctionCreateTask.runtimeconfig.json
+D:\FunctionCreateTask\bin\Debug\netcoreapp2.1\FunctionCreateTask.runtimeconfig.dev.json
+D:\FunctionCreateTask\bin\Debug\netcoreapp2.1\FunctionCreateTask.dll
+D:\FunctionCreateTask\bin\Debug\netcoreapp2.1\FunctionCreateTask.pdb
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.csprojAssemblyReference.cache
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.csproj.CoreCompileInputs.cache
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfoInputs.cache
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfo.cs
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.dll
+D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.pdb
