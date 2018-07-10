@@ -32,6 +32,20 @@
           "lib/netstandard2.0/Manatee.Trello.dll": {}
         }
       },
+      "Manatee.Trello.ManateeJson/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Manatee.Json": "9.6.0",
+          "Manatee.Trello": "2.4.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Manatee.Trello.ManateeJson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Manatee.Trello.ManateeJson.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -236,6 +250,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/104.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net4/RestSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1035,6 +1067,19 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "TrelloNet/0.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.5.0",
+          "RestSharp": "104.1.0"
+        },
+        "compile": {
+          "lib/net40-Client/TrelloNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/TrelloNet.dll": {}
+        }
       }
     }
   },
@@ -1067,6 +1112,17 @@
         "lib/netstandard2.0/Manatee.Trello.xml",
         "manatee.trello.3.2.0.nupkg.sha512",
         "manatee.trello.nuspec"
+      ]
+    },
+    "Manatee.Trello.ManateeJson/2.3.0": {
+      "sha512": "Yjh8FJ1kmF3XsA1PTtG8UO6jxho2TBZNkV+b3IP0512OlDPPBXygypeIYDhkv7pgv7a1lYOyn5/OQSnkNpXhZg==",
+      "type": "package",
+      "path": "manatee.trello.manateejson/2.3.0",
+      "files": [
+        "lib/netstandard1.3/Manatee.Trello.ManateeJson.dll",
+        "lib/netstandard1.3/Manatee.Trello.ManateeJson.xml",
+        "manatee.trello.manateejson.2.3.0.nupkg.sha512",
+        "manatee.trello.manateejson.nuspec"
       ]
     },
     "Microsoft.NETCore.App/2.1.0": {
@@ -1530,6 +1586,58 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/4.5.1": {
+      "sha512": "I8JT47bHXdbCmi9Rks66XtvcuvkrdP3rmSr1dBF828YanmBGqQvtGvVtKIWKuHP6v6+NLLC0nTHGW8p9n4vDtQ==",
+      "type": "package",
+      "path": "newtonsoft.json/4.5.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.pdb",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.pdb",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.pdb",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "lib/winrt45/Newtonsoft.Json.dll",
+        "lib/winrt45/Newtonsoft.Json.pdb",
+        "lib/winrt45/Newtonsoft.Json.xml",
+        "newtonsoft.json.4.5.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RestSharp/104.1.0": {
+      "sha512": "dlimMbhHZ7T2saCYJDcuonz7XSpnUUAe7RxN1O5ETi7xPnfAwA20Uf5Iy9XYOm+tV4FLM0GIQiVFxkjR7NJI8A==",
+      "type": "package",
+      "path": "restsharp/104.1.0",
+      "files": [
+        "lib/net35-client/RestSharp.dll",
+        "lib/net35-client/RestSharp.xml",
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.dll",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.xml",
+        "lib/sl4/RestSharp.Silverlight.dll",
+        "lib/sl4/RestSharp.Silverlight.xml",
+        "readme.txt",
+        "restsharp.104.1.0.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3749,12 +3857,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TrelloNet/0.6.2": {
+      "sha512": "pcy0Ud0tsDxGyRQuon2gdfiInwiQ43BLlpavnEvz1qOXjCDDGECh7RzsVzz++PfrxdwibjCVxqs8bj7OsxY3FA==",
+      "type": "package",
+      "path": "trellonet/0.6.2",
+      "files": [
+        "lib/net40-Client/TrelloNet.XML",
+        "lib/net40-Client/TrelloNet.dll",
+        "trellonet.0.6.2.nupkg.sha512",
+        "trellonet.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Manatee.Trello >= 3.2.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Manatee.Trello.ManateeJson >= 2.3.0",
+      "Microsoft.NETCore.App >= 2.1.0",
+      "TrelloNet >= 0.6.2"
     ]
   },
   "packageFolders": {
@@ -3764,11 +3885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\FunctionCreateTask\\FunctionCreateTask.csproj",
+      "projectUniqueName": "D:\\AddCard\\AddCard\\FunctionCreateTask.csproj",
       "projectName": "FunctionCreateTask",
-      "projectPath": "d:\\FunctionCreateTask\\FunctionCreateTask.csproj",
+      "projectPath": "D:\\AddCard\\AddCard\\FunctionCreateTask.csproj",
       "packagesPath": "C:\\Users\\SIRINUN\\.nuget\\packages\\",
-      "outputPath": "d:\\FunctionCreateTask\\obj\\",
+      "outputPath": "D:\\AddCard\\AddCard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3800,10 +3921,18 @@
             "target": "Package",
             "version": "[3.2.0, )"
           },
+          "Manatee.Trello.ManateeJson": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "TrelloNet": {
+            "target": "Package",
+            "version": "[0.6.2, )"
           }
         },
         "imports": [
@@ -3813,5 +3942,47 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TrelloNet 0.6.2 depends on Newtonsoft.Json (>= 4.5.0) but Newtonsoft.Json 4.5.0 was not found. An approximate best match of Newtonsoft.Json 4.5.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 4.5.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp 104.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TrelloNet 0.6.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "TrelloNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

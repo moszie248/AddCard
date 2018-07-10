@@ -9,3 +9,14 @@ D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfoInp
 D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfo.cs
 D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.dll
 D:\FunctionCreateTask\obj\Debug\netcoreapp2.1\FunctionCreateTask.pdb
+D:\AddCard\AddCard\bin\Debug\netcoreapp2.1\FunctionCreateTask.deps.json
+D:\AddCard\AddCard\bin\Debug\netcoreapp2.1\FunctionCreateTask.runtimeconfig.json
+D:\AddCard\AddCard\bin\Debug\netcoreapp2.1\FunctionCreateTask.runtimeconfig.dev.json
+D:\AddCard\AddCard\bin\Debug\netcoreapp2.1\FunctionCreateTask.dll
+D:\AddCard\AddCard\bin\Debug\netcoreapp2.1\FunctionCreateTask.pdb
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.csprojAssemblyReference.cache
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.csproj.CoreCompileInputs.cache
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfoInputs.cache
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.AssemblyInfo.cs
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.dll
+D:\AddCard\AddCard\obj\Debug\netcoreapp2.1\FunctionCreateTask.pdb

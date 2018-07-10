@@ -1,14 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "6fd044e857cc0840462e4c48de73af103e1cd2b8"
+    "signature": "915068fdf1fcd6ededa5bec8f7c0ee2d5e1ae2cc"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "FunctionCreateTask/1.0.0": {
         "dependencies": {
-          "Manatee.Trello": "3.2.0"
+          "Manatee.Trello": "3.2.0",
+          "Manatee.Trello.ManateeJson": "2.3.0",
+          "TrelloNet": "0.6.2"
         },
         "runtime": {
           "FunctionCreateTask.dll": {}
@@ -39,6 +41,34 @@
           "lib/netstandard2.0/Manatee.Trello.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Manatee.Trello.ManateeJson/2.3.0": {
+        "dependencies": {
+          "Manatee.Json": "9.8.0",
+          "Manatee.Trello": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Manatee.Trello.ManateeJson.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/4.5.1": {
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.1.14720"
+          }
+        }
+      },
+      "RestSharp/104.1.0": {
+        "runtime": {
+          "lib/net4/RestSharp.dll": {
+            "assemblyVersion": "104.1.0.0",
+            "fileVersion": "104.1.0.0"
           }
         }
       },
@@ -557,7 +587,19 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ValueTuple/4.4.0": {}
+      "System.ValueTuple/4.4.0": {},
+      "TrelloNet/0.6.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "4.5.1",
+          "RestSharp": "104.1.0"
+        },
+        "runtime": {
+          "lib/net40-Client/TrelloNet.dll": {
+            "assemblyVersion": "0.6.2.0",
+            "fileVersion": "0.6.2.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -579,6 +621,27 @@
       "sha512": "sha512-BpvsXE0fbCBXihPzNeQEuzwc4fRjjbPXwn+z5iq9mvb9JycUCravGUHD4FVtCw4Keg1guIlLbf+ERwcePY4S7A==",
       "path": "manatee.trello/3.2.0",
       "hashPath": "manatee.trello.3.2.0.nupkg.sha512"
+    },
+    "Manatee.Trello.ManateeJson/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yjh8FJ1kmF3XsA1PTtG8UO6jxho2TBZNkV+b3IP0512OlDPPBXygypeIYDhkv7pgv7a1lYOyn5/OQSnkNpXhZg==",
+      "path": "manatee.trello.manateejson/2.3.0",
+      "hashPath": "manatee.trello.manateejson.2.3.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I8JT47bHXdbCmi9Rks66XtvcuvkrdP3rmSr1dBF828YanmBGqQvtGvVtKIWKuHP6v6+NLLC0nTHGW8p9n4vDtQ==",
+      "path": "newtonsoft.json/4.5.1",
+      "hashPath": "newtonsoft.json.4.5.1.nupkg.sha512"
+    },
+    "RestSharp/104.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dlimMbhHZ7T2saCYJDcuonz7XSpnUUAe7RxN1O5ETi7xPnfAwA20Uf5Iy9XYOm+tV4FLM0GIQiVFxkjR7NJI8A==",
+      "path": "restsharp/104.1.0",
+      "hashPath": "restsharp.104.1.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -943,6 +1006,13 @@
       "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
       "path": "system.valuetuple/4.4.0",
       "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+    },
+    "TrelloNet/0.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pcy0Ud0tsDxGyRQuon2gdfiInwiQ43BLlpavnEvz1qOXjCDDGECh7RzsVzz++PfrxdwibjCVxqs8bj7OsxY3FA==",
+      "path": "trellonet/0.6.2",
+      "hashPath": "trellonet.0.6.2.nupkg.sha512"
     }
   }
 }
